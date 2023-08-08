@@ -1,12 +1,11 @@
-The codes for "Generalized representations of microstructural images 
-using self-supervised learning" is presented here.  
+The codes for "Self-supervised learning enables representations of complex metallic microstructures" is presented here.  
 
 The codes are developed from the MMSelfSup framework.
 
 To fully reproduce the paper, you can follow the steps.
 
-1. Install the environments according to README.md
-2. Download the datasets, unzip and put it under mmselfsup-0.9-MSSL/
+1. Install the environments according to README_ssl.md
+2. Download the datasets, unzip and put it under MSSL/
 3. Train the self-supervised learning model with the unlabeled dataset.
 ```shell
 sh tools/dist_train.sh configs/selfsup/simsiam/simsiam_resnet18_8xb32-coslr-400e_sem.py 0
